@@ -1,0 +1,11 @@
+# This configuration uses Gmail
+account default
+host smtp.gmail.com
+port 587
+from your-email@gmail.com
+user your-email@gmail.com
+password your-email-password
+tls on
+tls_starttls on
+auth on
+logfile ~/.msmtp.log
